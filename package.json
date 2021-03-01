@@ -1,0 +1,21 @@
+{
+  "name": "@getconversation/html-to-markdown",
+  "version": "1.0.0",
+  "description": "HTML to Markdown converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "qunit -c index.js -t test.js --timeout 5000"
+  },
+  "keywords": [
+    "html",
+    "markdown"
+  ],
+  "author": "GetConversation",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "devDependencies": {
+    "node-qunit": "^1.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2"
+  }
+}
